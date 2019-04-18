@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: sentences-server-solution
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka
+server:
+  port: 8020
